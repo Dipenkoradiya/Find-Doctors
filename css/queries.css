@@ -1,0 +1,224 @@
+@media (max-width: 1250px) {
+    .box-main span {
+        right: -35px;
+    }
+    .header-menu-ul {
+        gap: 0.8rem;
+    }
+    .section2-sub {
+        max-width: 95% !important;
+    }
+}
+@media (max-width: 1050px) {
+    .custom-search-input input[type="submit"] {
+        text-indent: -999px;
+        background: #74d1c6 url(/find-doctor/image/search-outline.svg) no-repeat center center;
+    }
+    .search-menu-top-icon {
+        display: none;
+    }
+    .slider img {
+        height: 400;
+        width: 400;
+    }
+    .section1-main {
+        width: 100%;
+    }
+    .section2-boxes {
+        flex-direction: column;
+    }
+    .section2-sub {
+        padding: 4rem 0;
+    }
+    .box-main span {
+        top: 104%;
+        right: 43%;
+        transform: rotate(90deg);
+    }
+    .box-main {
+        width: 50rem;
+    }
+    .box-text-content {
+        font-size: 1rem;
+    }
+    .section4 .max-width-80 {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .section5 {
+        height: 30rem;
+    }
+    .section5-left img {
+        height: 18rem;
+    }
+    .header-menu-ul li:nth-last-child(1) {
+        display: none;
+    }
+    .header-menu-ul li:nth-last-child(2) {
+        display: none;
+    }
+
+    .nav-menu-button {
+        display: block;
+    }
+    .header-menu {
+        background-color: rgba(255, 255, 255, 0.97);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    .header-menu-ul {
+        flex-direction: column;
+    }
+
+    .nav-open .header-menu {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+    .nav-open .nav-menu-icon[name="close-circle-outline"] {
+        display: block;
+        z-index: 10;
+        position: absolute;
+    }
+    .nav-open .nav-menu-icon[name="menu-outline"] {
+        display: none;
+    }
+    .header-menu-ul li {
+        margin: 0.5rem;
+        font-weight: 600;
+    }
+}
+@media (max-width: 850px) {
+    .custom-search-input {
+        width: 80%;
+    }
+    .box-main {
+        width: 80%;
+    }
+    .content {
+        font-size: 1.2rem;
+    }
+    .section4 .max-width-80 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .section5-left img {
+        height: 10rem;
+    }
+    .download {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .section5 .content {
+        font-size: 1rem;
+    }
+    .max-width-80 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer .max-width-80 {
+        max-width: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .responsive-logo {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .responsive-bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section1-content {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 700px) {
+    .section1-heading {
+        font-size: 2.6rem;
+    }
+    .menu-major {
+        flex-direction: column;
+    }
+    .section2-sub {
+        padding: 1rem 0;
+        gap: 3rem;
+    }
+    .menu1 {
+        width: 95%;
+    }
+    .section4 .content,
+    .section4 .primary-heading {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .section4 .primary-heading {
+        font-size: 1.4rem;
+    }
+    .app-store img {
+        height: 40%;
+        width: 40%;
+    }
+    .responsive-bottom {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+    .copyright {
+        padding: 2rem;
+    }
+    .slider img {
+        padding: 0 30%;
+    }
+}
+@media (max-width: 560px) {
+    .box-main {
+        width: 100%;
+    }
+    .box-main {
+        height: 22rem;
+    }
+    .primary-heading {
+        font-size: 1.6rem;
+    }
+    .content {
+        font-size: 1rem;
+    }
+    .section5-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .section5 {
+        height: 40rem;
+    }
+    .section5-left,
+    .section5-right {
+        width: 75%;
+    }
+    .slider img {
+        padding: 0 20%;
+    }
+}
+@media (max-width: 350px) {
+    .max-width-80 {
+        max-width: 100%;
+    }
+    .slider img {
+        padding: 0%;
+    }
+}
